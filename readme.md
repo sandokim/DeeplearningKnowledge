@@ -1,6 +1,6 @@
-# Trainig & Testing & Augmentation
+# Trainig & Testing & Result(Data Augmentation & Hyperparameters setting)
 
-[Segmentation 논문 쓸 때 Training과 Testing 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
+[Segmentation 논문 쓸 때 작성방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
 
 ### Training
 
@@ -33,7 +33,7 @@ after soft-max, consists of a probability map for background and foreground. The
 voxels having higher probability (> 0:5) to belong to the foreground than to the
 background are considered part of the anatomy.
 
-### Result + Augmentation 설명
+### Result + Augmentation & Hyperparamters 설명
 
 We trained our method on 50 MRI volumes, and the relative manual ground
 truth annotation, obtained from the "PROMISE2012" challenge dataset [7].
