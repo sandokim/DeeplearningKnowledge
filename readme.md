@@ -1,4 +1,4 @@
-# Trainig & Testing & Result(Data Augmentation & Hyperparameters setting)
+# Trainig & Testing & Result(Data Augmentation & Hyperparameters setting) & Conclusion
 
 [Segmentation 논문 쓸 때 작성방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
 
@@ -71,6 +71,21 @@ random deformations to the scans used for training by varying the position of
 the control points with random quantities obtained from gaussian distribution
 with zero mean and 15 voxels standard deviation. Qualitative results can be seen
 in Fig. 4.
+
+### Conclusion & Future works
+
+We presented and approach based on a volumetric convolutional neural network
+that performs segmentation of MRI prostate volumes in a fast and accurate man-
+ner. We introduced a novel objective function that we optimise during training
+based on the Dice overlap coeffcient between the predicted segmentation and the
+ground truth annotation. Our Dice loss layer does not need sample re-weighting
+when the amount of background and foreground pixels is strongly unbalanced
+and is indicated for binary segmentation tasks. Although we inspired our archi-
+tecture to the one proposed in [14], we divided it into stages that learn residuals
+and, as empirically observed, improve both results and convergence time. Fu-
+ture works will aim at segmenting volumes containing multiple regions in other
+modalities such as ultrasound and at higher resolutions by splitting the network
+over multiple GPUs.
 
 # CNN Properties
 
