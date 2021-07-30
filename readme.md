@@ -79,4 +79,20 @@ summarized in Fig. 8. It was revealed that removing long skip connections unambi
 
 the performance of the network.
 
+Next, the network was trained and tested using two different types of long skip connections: concatenation
+
+and element-wise summation. Six cross-validation folds were used in order to get a sound
+
+comparison. The training and validation curves of all of the folds are collected in Fig. 11. The results
+
+suggest that the summation network is outperformed in all cross-validation folds. In order to confirm
+
+this, the test set dice scores obtained by the networks were averaged over all six cross-validation
+
+folds. These values, along with the curve of the validation loss achieved by each network averaged
+
+over all folds are visualized in Fig. 12. Like the single-fold learning curves, these plots suggest that
+
+concatenation works better than element-wise summation when used in long skip connections.
+
 [CNN-based Segmentation of Medical Imaging Data](https://arxiv.org/pdf/1701.03056.pdf)
