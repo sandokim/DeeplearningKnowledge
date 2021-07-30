@@ -85,6 +85,8 @@ place of max-pooling as it was found to yield slightly better results in the pre
 
 [Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf)
 
+[Visualizing and understanding convolutional networks](https://arxiv.org/pdf/1311.2901.pdf)
+
 ---
 
 # Semantic Segmentation
