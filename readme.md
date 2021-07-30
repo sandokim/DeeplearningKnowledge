@@ -102,6 +102,7 @@ Another limitation stems from the fact that both
 the dice coefficient and the Jaccard index are only defined for binary maps.
 
 [Dice Loss layer 부분 참고](https://arxiv.org/pdf/1606.04797.pdf)
+
 The network predictions, which consist of two volumes having the same resolution as the original input data, are processed through a soft-max layer which
 outputs the probability of each voxel to belong to foreground and to background.
 In medical volumes such as the ones we are processing in this work, it is not uncommon that the anatomy of interest occupies only a very small region of the
