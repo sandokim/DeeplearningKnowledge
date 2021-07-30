@@ -49,4 +49,4 @@ summarized in Fig. 8. It was revealed that removing long skip connections unambi
 
 the performance of the network.
 
-[CNN-based Segmentation of Medical Imaging Data][https://arxiv.org/pdf/1701.03056.pdf]
+[CNN-based Segmentation of Medical Imaging Data](https://arxiv.org/pdf/1701.03056.pdf)
