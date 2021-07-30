@@ -1,3 +1,7 @@
+# CNN Properties
+
+Shallower layers grasp local information while deeper layers use flters whose receptive felds are much broader that therefore capture global information
+
 # Deep Neural Network Initialization
 
 In deep networks with many convolutional layers and different paths through
