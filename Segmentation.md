@@ -12,7 +12,7 @@
 
 [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/pdf/1411.4038.pdf)
 
-[Improved Inception-Residual Convolutional Neural Network for Object Recognition](ttps://arxiv.org/ftp/arxiv/papers/1712/1712.09888.pdf)
+[Improved Inception-Residual Convolutional Neural Network for Object Recognition](https://arxiv.org/ftp/arxiv/papers/1712/1712.09888.pdf)
 
 [Inception Recurrent Convolutional Neural Network for Object Recognition](https://arxiv.org/pdf/1704.07709.pdf)
 
