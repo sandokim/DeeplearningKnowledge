@@ -2,6 +2,15 @@
 
 Shallower layers grasp local information while deeper layers use flters whose receptive felds are much broader that therefore capture global information
 
+# CMM in Medical Field
+
+CNNs have been recently used for medical image segmentation. Early approaches obtain anatomy delineation in images or volumes by performing patch-
+wise image classification. Such segmentations are obtained by only considering local context and therefore are prone to failure, especially in challenging modalities such as ultrasound, where a high number of mis-classified voxel are to be expected. Post-processing approaches such as connected components analysis
+normally yield no improvement and therefore, more recent works, propose to
+use the network predictions in combination with Markov random fields [6], voting strategies [9] or more traditional approaches such as level-sets [2]. Patch-wise
+approaches also suffer from effciency issues. When densely extracted patches are processed in a CNN, a high number of computations is redundant and therefore
+the total algorithm runtime is high. In this case, more effcient computationalschemes can be adopted.
+
 # Deep Neural Network Initialization
 
 In deep networks with many convolutional layers and different paths through
