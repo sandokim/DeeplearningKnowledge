@@ -84,6 +84,8 @@ the dice coefficient and the Jaccard index are only defined for binary maps.
 
 DSC, Jaccard Loss, categorical cross-entropy, Focal Loss
 
+![Data_loader](./Deeplerning_Knowledge/Jaccard Index.PNG)
+
 ---
 
 # categorical cross-entropy
