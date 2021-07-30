@@ -2,7 +2,7 @@
 
 Shallower layers grasp local information while deeper layers use flters whose receptive felds are much broader that therefore capture global information
 
-# CMM in Medical Field
+# CNN in Medical Field
 
 CNNs have been recently used for medical image segmentation. Early approaches obtain anatomy delineation in images or volumes by performing patch-
 wise image classification. Such segmentations are obtained by only considering local context and therefore are prone to failure, especially in challenging modalities such as ultrasound, where a high number of mis-classified voxel are to be expected. Post-processing approaches such as connected components analysis
