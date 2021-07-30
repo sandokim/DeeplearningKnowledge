@@ -44,7 +44,7 @@ the image at the beginning of each training iteration. Hence, in every epoch, th
 
 on a different version of the original data set.
 
-## Data Augmentation in Biomedical Segmetation 
+## Data Augmentation in Biomedical Segmentation 
 
 As for our tasks there is very little training data available, we use excessive
 
