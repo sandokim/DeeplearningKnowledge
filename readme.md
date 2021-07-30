@@ -1,4 +1,4 @@
-# Trainig & Testing
+# Trainig & Testing & Augmentation
 
 [Segmentation 논문 쓸 때 Training과 Testing 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
 
@@ -32,6 +32,19 @@ forward manner through the network. The output of the last convolutional layer,
 after soft-max, consists of a probability map for background and foreground. The
 voxels having higher probability (> 0:5) to belong to the foreground than to the
 background are considered part of the anatomy.
+
+### Result + Augmentation 설명
+
+We trained our method on 50 MRI volumes, and the relative manual ground
+truth annotation, obtained from the "PROMISE2012" challenge dataset [7].
+This dataset contains medical data acquired in different hospitals, using dif-
+ferent equipment and different acquisition protocols. The data in this dataset
+is representative of the clinical variability and challenges encountered in clinical settings. As previously stated we massively augmented this dataset through
+random transformation performed in each training iteration, for each mini-batch
+fed to the network. The mini-batches used in our implementation contained two
+volumes each, mainly due to the high memory requirement of the model during
+training. We used a momentum of 0:99 and a initial learning rate of 0:0001 which
+decreases by one order of magnitude every 25K iterations.
 
 
 # CNN Properties
