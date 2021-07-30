@@ -57,6 +57,7 @@ We evaluated the approach performance in terms of Dice coeffcient, Haus-
 dorff distance of the predicted delineation to the ground truth annotation and
 in terms of score obtained on the challenge data as computed by the organisers
 of "PROMISE 2012" [7]. The results are shown in Table 2 and Fig. 5.
+
 Our implementation5 was realised in python, using a custom version of the
 Caffe6 [5] framework which was enabled to perform volumetric convolutions via
 CuDNN v3. All the trainings and experiments were ran on a standard work-
