@@ -9,6 +9,26 @@ the image at the beginning of each training iteration. Hence, in every epoch, th
 
 on a different version of the original data set.
 
+## Data Augmentation in Biomedical Segmetation 
+
+As for our tasks there is very little training data available, we use excessive
+
+data augmentation by applying elastic deformations to the available training im-
+
+ages. This allows the network to learn invariance to such deformations, without
+
+the need to see these transformations in the annotated image corpus. This is
+
+particularly important in biomedical segmentation, since deformation used to
+
+be the most common variation in tissue and realistic deformations can be simu-
+
+lated effciently. The value of data augmentation for learning invariance has been
+
+shown in Dosovitskiy et al. [Discriminative un- supervised feature learning with convolutional neural networks](https://arxiv.org/pdf/1406.6909.pdf)
+
+in the scope of unsupervised feature learning.
+
 # Max pooling vs Stride
 
 Strided convolution is used in
