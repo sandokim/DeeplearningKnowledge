@@ -46,7 +46,7 @@ volumes each, mainly due to the high memory requirement of the model during
 training. We used a momentum of 0:99 and a initial learning rate of 0:0001 which
 decreases by one order of magnitude every 25K iterations.
 
-### Result 부분에서도 Test datad의 Ground Truth가 공개되지 않은 challenge의 경우 논문 작성 
+### Result 부분에서도 Test data의 Ground Truth가 공개되지 않은 challenge의 경우 논문 작성 
 
 We tested V-Net on 30 MRI volumes depicting prostate whose ground truth
 annotation was secret. All the results reported in this section of the paper were
@@ -57,7 +57,19 @@ We evaluated the approach performance in terms of Dice coeffcient, Haus-
 dorff distance of the predicted delineation to the ground truth annotation and
 in terms of score obtained on the challenge data as computed by the organisers
 of "PROMISE 2012" [7]. The results are shown in Table 2 and Fig. 5.
-
+Our implementation5 was realised in python, using a custom version of the
+Caffe6 [5] framework which was enabled to perform volumetric convolutions via
+CuDNN v3. All the trainings and experiments were ran on a standard work-
+station equipped with 64 GB of memory, an Intel(R) Core(TM) i7-5820K CPU
+working at 3.30GHz, and a NVidia GTX 1080 with 8 GB of video memory. We
+let our model train for 48 hours, or 30K iterations circa, and we were able to
+segment a previously unseen volume in circa 1 second. The datasets were first
+normalised using the N4 bias filed correction function of the ANTs framework
+[17] and then resampled to a common resolution of 1 x 1 x 1:5 mm. We applied
+random deformations to the scans used for training by varying the position of
+the control points with random quantities obtained from gaussian distribution
+with zero mean and 15 voxels standard deviation. Qualitative results can be seen
+in Fig. 4.
 
 # CNN Properties
 
