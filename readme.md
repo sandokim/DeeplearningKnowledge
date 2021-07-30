@@ -22,3 +22,9 @@ place of max-pooling as it was found to yield slightly better results in the pre
 Another limitation stems from the fact that both
 
 the dice coefficient and the Jaccard index are only defined for binary maps.
+
+---
+
+# Segmentation Loss Function
+
+DSC, Jaccard Loss, categorical cross-entropy, Focal Loss
