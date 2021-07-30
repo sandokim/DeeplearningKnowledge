@@ -97,4 +97,16 @@ concatenation works better than element-wise summation when used in long skip co
 
 ### Performance Comparison : Concatenation > Summation > Cross Validation
 
+**The visualized features suggest that, while summing features from the expanding and contracting**
+
+**stages directly inserts local information into the feature maps, it also causes a high amount of irrelevant**
+
+**detail to be re-introduced into the information stream of the network, making it difficult for**
+
+**the network to selectively combine both types of information. By comparison, the concatenation**
+
+**network seems to benefit from keeping separate streams of information: one set of feature maps**
+
+**containing segmentation maps for the individual classes and another set containing local details.**
+
 [CNN-based Segmentation of Medical Imaging Data](https://arxiv.org/pdf/1701.03056.pdf)
