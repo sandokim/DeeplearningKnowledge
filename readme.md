@@ -95,6 +95,6 @@ over all folds are visualized in Fig. 12. Like the single-fold learning curves, 
 
 concatenation works better than element-wise summation when used in long skip connections.
 
-### Performace Comparison : Concetenation > Summation > Cross Validation
+### Performance Comparison : Concetenation > Summation > Cross Validation
 
 [CNN-based Segmentation of Medical Imaging Data](https://arxiv.org/pdf/1701.03056.pdf)
