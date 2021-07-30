@@ -83,6 +83,8 @@ Strided convolution is used in
 
 place of max-pooling as it was found to yield slightly better results in the preliminary experiments.
 
+[Striving for Simplicity: The All Convolutional Net](https://arxiv.org/pdf/1412.6806.pdf)
+
 ---
 
 # Semantic Segmentation
