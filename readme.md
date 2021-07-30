@@ -49,6 +49,16 @@ categorical cross-entropy corresponds to a maximum likelihood solution: the netw
 
 towards more frequent classes, as this increases the likelihood of the training data.
 
+It was shown before in Table 1 that the classes “middle” and “distal” are the least common of all four foreground
+
+labels due to their smaller size. While the class imbalance could be countered by using weight maps
+
+wherein less frequent classes are associated with higher weights, this would introduce an additional
+
+hyper-parameter optimization problem. In order to avoid this, the Jaccard distance was used in all
+
+of the ensuing experiments.
+
 ---
 
 # U-net Skip connection
