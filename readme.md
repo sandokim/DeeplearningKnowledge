@@ -1,6 +1,6 @@
 # Trainig & Testing
 
-[논문 쓸 때 Training과 Testing 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
+[Segmentation 논문 쓸 때 Training과 Testing 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
 
 ### Training
 
