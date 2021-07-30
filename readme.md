@@ -1,3 +1,29 @@
+# Trainig
+
+[논문 쓸 때 Training 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
+
+Our CNN is trained end-to-end on a dataset of prostate scans in MRI. An
+example of the typical content of such volumes is shown in Figure 1. All the
+volumes processed by the network have fixed size of 128 x 128 x 64 voxels and
+a spatial resolution of 1 x 1 x 1:5 millimeters.
+Annotated medical volumes are not easy to obtain due to the fact that one or
+more experts are required to manually trace a reliable ground truth annotation
+and that there is a cost associated with their acquisition. In this work we found
+necessary to augment the original training dataset in order to obtain robustness
+and increased precision on the test dataset.
+
+During every training iteration, we fed as input to the network randomly
+deformed versions of the training images by using a dense deformation field ob-
+tained through a 2 x 2 x 2 grid of control-points and B-spline interpolation.
+This augmentation has been performed "on-the-
+y", prior to each optimisa-
+tion iteration, in order to alleviate the otherwise excessive storage requirements.
+Additionally we vary the intensity distribution of the data by adapting, using
+histogram matching, the intensity distributions of the training volumes used
+in each iteration, to the ones of other randomly chosen scans belonging to the
+dataset.
+
+
 # CNN Properties
 
 Shallower layers grasp local information while deeper layers use flters whose receptive felds are much broader that therefore capture global information
