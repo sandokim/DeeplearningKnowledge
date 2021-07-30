@@ -31,6 +31,17 @@ DSC, Jaccard Loss, categorical cross-entropy, Focal Loss
 
 ---
 
+# categorical cross-entropy
+
+a loss function that corresponds to the maximum likelihood solution of a multiclass classification problem. 
+
+It is defined as: H(t; p) = 􀀀
+P
+t(x) log(p(x)), p and t corresponding to “prediction”
+and “target”.
+
+---
+
 # U-net Skip connection
 
 U-net에서 Contracting path를 skip connection으로 Expanding path에 concatenate하는 이유는 image가 Downsampling하면서 잃어버리는 local details를 보전하기 위해서입니다.
