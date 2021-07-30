@@ -1,3 +1,15 @@
+# Deep Neural Network Initialization
+
+In deep networks with many convolutional layers and different paths through
+
+the network, a good initialization of the weights is extremely important. 
+
+Otherwise, parts of the network might give excessive activations, while other parts never contribute. 
+
+Ideally the initial weights should be adapted such that each feature map in the network has approximately unit variance. 
+
+---
+
 # Data Augmentation
 The transformations used by [35, 43, 32] include shifting, rotating and
 
