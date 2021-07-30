@@ -16,3 +16,9 @@ Strided convolution is used in
 place of max-pooling as it was found to yield slightly better results in the preliminary experiments.
 
 ---
+
+# Dice Simliarity Coefficient and Jaccard index
+
+Another limitation stems from the fact that both
+
+the dice coefficient and the Jaccard index are only defined for binary maps.
