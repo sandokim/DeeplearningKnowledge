@@ -10,7 +10,7 @@ Ideally the initial weights should be adapted such that each feature map in the 
 
 For a network with our architecture (alternating convolution and ReLU layers) this can be achieved
 
-by drawing the initial weights from a Gaussian distribution with a standard deviation of...
+by drawing the initial weights from a ***Gaussian distribution*** with a standard deviation of...
 
 ---
 
