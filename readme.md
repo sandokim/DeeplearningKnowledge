@@ -37,8 +37,17 @@ a loss function that corresponds to the maximum likelihood solution of a multicl
 
 It is defined as: H(t; p) = 􀀀
 P
-t(x) log(p(x)), p and t corresponding to “prediction”
-and “target”.
+t(x) log(p(x)), p and t corresponding to “prediction” and “target”.
+
+Turning to the least frequent two classes
+
+“middle” and “distal”, it becomes clear that the network trained on categorical cross-entropy is far
+
+less capable of learning to detect highly infrequent classes, which can be explained by the fact that
+
+categorical cross-entropy corresponds to a maximum likelihood solution: the network gets biased
+
+towards more frequent classes, as this increases the likelihood of the training data.
 
 ---
 
