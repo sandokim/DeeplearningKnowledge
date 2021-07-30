@@ -22,9 +22,9 @@ robustness properties, when only few training samples are available. In case of
 
 microscopical images we primarily need shift and rotation invariance as well as
 
-robustness to deformations and gray value variations. Especially random elastic deformations of the training samples seem to be the key concept to train
+robustness to deformations and gray value variations. Especially random elastic deformations of the training samples seem to be the key concept to train a segmentation network with very few annotated images.
 
-a segmentation network with very few annotated images. We generate smooth deformations using random displacement vectors on a coarse 3 by 3 grid. 
+We generate smooth deformations using random displacement vectors on a coarse 3 by 3 grid. 
 
 The displacements are sampled from a Gaussian distribution with 10 pixels standard deviation. 
 
