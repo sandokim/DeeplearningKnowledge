@@ -34,3 +34,17 @@ DSC, Jaccard Loss, categorical cross-entropy, Focal Loss
 # U-net Skip connection
 
 U-net에서 Contracting path를 skip connection으로 Expanding path에 concatenate하는 이유는 image가 Downsampling하면서 잃어버리는 local details를 보전하기 위해서입니다.
+
+An important part of the network described in U-Net are long skip connections forwarding feature
+
+maps from the contracting stage to the expanding stage. These allow the network to recover
+
+local details which are lost due to the usage of downsampling operations. In order to justify the
+
+inclusion of long skip connections, the network was trained and tested on the hand MRI data set
+
+described in Section 3 with and without long skip connections. The results of this experiment are
+
+summarized in Fig. 8. It was revealed that removing long skip connections unambiguously worsens
+
+the performance of the network.
