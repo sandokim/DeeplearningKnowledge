@@ -101,6 +101,12 @@ Another limitation stems from the fact that both
 
 the dice coefficient and the Jaccard index are only defined for binary maps.
 
+The network predictions, which consist of two volumes having the same resolution as the original input data, are processed through a soft-max layer which
+outputs the probability of each voxel to belong to foreground and to background.
+In medical volumes such as the ones we are processing in this work, it is not uncommon that the anatomy of interest occupies only a very small region of the
+scan. This often causes the learning process to get trapped in local minima of the loss function yielding a network whose predictions are strongly biased towards background. As a result the foreground region is often missing or only partially detected. Several previous approaches resorted to loss functions based
+on sample re-weighting where foreground regions are given more importance than background ones during learning. In this work we propose a novel objective function based on dice coeffcient, which is a quantity ranging between 0 and 1 which we aim to maximise. The dice coeffcient D between two binary volumes can be written as
+
 ---
 
 # Segmentation Loss Function
