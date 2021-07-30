@@ -46,6 +46,18 @@ volumes each, mainly due to the high memory requirement of the model during
 training. We used a momentum of 0:99 and a initial learning rate of 0:0001 which
 decreases by one order of magnitude every 25K iterations.
 
+### Result 부분에서도 Test datad의 Ground Truth가 공개되지 않은 challenge의 경우 논문 작성 
+
+We tested V-Net on 30 MRI volumes depicting prostate whose ground truth
+annotation was secret. All the results reported in this section of the paper were
+obtained directly from the organisers of the challenge after submitting the seg-
+mentation obtained through our approach. The test set was representative of
+the clinical variability encountered in prostate scans in real clinical settings [7].
+We evaluated the approach performance in terms of Dice coeffcient, Haus-
+dorff distance of the predicted delineation to the ground truth annotation and
+in terms of score obtained on the challenge data as computed by the organisers
+of "PROMISE 2012" [7]. The results are shown in Table 2 and Fig. 5.
+
 
 # CNN Properties
 
