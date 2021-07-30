@@ -109,4 +109,14 @@ concatenation works better than element-wise summation when used in long skip co
 
 **containing segmentation maps for the individual classes and another set containing local details.**
 
+### Training networks on different combinations of modalities could improve Dice Score
+
+Comparing the results of this run with the performance of the network when all modalities are available shows that, interestingly,
+
+the network achieves a much higher dice score on necrotic regions when the T1 modality
+
+is discarded. This suggests that some benefit could be achieved by training different networks on
+
+different combinations of MRI modalities.
+
 [CNN-based Segmentation of Medical Imaging Data](https://arxiv.org/pdf/1701.03056.pdf)
