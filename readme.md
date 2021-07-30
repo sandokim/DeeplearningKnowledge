@@ -74,7 +74,7 @@ place of max-pooling as it was found to yield slightly better results in the pre
 
 # Semantic Segmentation
 
-Semantic Segmentation by that we refer to classifying individual pixel rather than classifying an image as a cat or a dog but in this case we are classifying individual pixels that belong to a cat or a dog
+Semantic Segmentation by that we refer to ***classifying individual pixel*** rather than classifying an image as a cat or a dog but in this case we are classifying individual pixels that belong to a cat or a dog
 
 ---
 
