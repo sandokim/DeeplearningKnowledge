@@ -92,6 +92,7 @@ DSC, Jaccard Loss, categorical cross-entropy, Focal Loss
 
 ![Data_loader](./image/Jaccard_Index.PNG)
 
+IOU = TP / (TP + FP + FN) = Jaccard Index
 
 ---
 
