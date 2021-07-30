@@ -1,6 +1,8 @@
-# Trainig
+# Trainig & Testing
 
-[논문 쓸 때 Training 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
+[논문 쓸 때 Training과 Testing 부분 작성하는 방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
+
+### Training
 
 Our CNN is trained end-to-end on a dataset of prostate scans in MRI. An
 example of the typical content of such volumes is shown in Figure 1. All the
@@ -22,6 +24,14 @@ Additionally we vary the intensity distribution of the data by adapting, using
 histogram matching, the intensity distributions of the training volumes used
 in each iteration, to the ones of other randomly chosen scans belonging to the
 dataset.
+
+### Testing
+
+A Previously unseen MRI volume can be segmented by processing it in a feed-
+forward manner through the network. The output of the last convolutional layer,
+after soft-max, consists of a probability map for background and foreground. The
+voxels having higher probability (> 0:5) to belong to the foreground than to the
+background are considered part of the anatomy.
 
 
 # CNN Properties
