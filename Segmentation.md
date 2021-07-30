@@ -1,3 +1,5 @@
+Segmantation 관련 논문 입니다
+
 [3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes](https://arxiv.org/pdf/1607.00582.pdf)
 
 [3D U-Net: Learning Dense Volumetric Segmentation from Sparse Annotation](https://arxiv.org/pdf/1606.06650.pdf)
