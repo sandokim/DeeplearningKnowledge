@@ -15,6 +15,25 @@ by drawing the initial weights from a ***Gaussian distribution*** with a standar
 ---
 
 # Data Augmentation
+
+Data augmentation is essential to teach the network the desired invariance and
+
+robustness properties, when only few training samples are available. In case of
+
+microscopical images we primarily need shift and rotation invariance as well as
+
+robustness to deformations and gray value variations. Especially random elastic deformations of the training samples seem to be the key concept to train
+
+a segmentation network with very few annotated images. We generate smooth deformations using random displacement vectors on a coarse 3 by 3 grid. 
+
+The displacements are sampled from a Gaussian distribution with 10 pixels standard deviation. 
+
+Per-pixel displacements are then computed using bicubic interpolation. 
+
+Drop-out layers at the end of the contracting path perform further implicit data augmentation.
+
+ex)
+
 The transformations used by [35, 43, 32] include shifting, rotating and
 
 scaling images, as well as augmenting grey values. One transformation cited in each of the three
