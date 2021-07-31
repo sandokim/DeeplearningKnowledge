@@ -14,17 +14,17 @@
 
 [Automatic Head and Neck Tumor Segmentation in PET/CT with Scale Attention Network](https://www.medrxiv.org/content/10.1101/2020.11.11.20230185v1.full.pdf)
 
-[Iteratively refine the segmentation of head andneck tumor in FDG-PET and CT images]()
+[Iteratively refine the segmentation of head andneck tumor in FDG-PET and CT images]
 
-[Patch-based 3D UNet for head and neck tumor segmentation with an ensemble of conventional and dilated convolutions]()
+[Patch-based 3D UNet for head and neck tumor segmentation with an ensemble of conventional and dilated convolutions]
 
-[GAN-based bi-modal segmentation using mumfordshah loss: Application to head and neck tumors in PET-CT images]()
+[GAN-based bi-modal segmentation using mumfordshah loss: Application to head and neck tumors in PET-CT images]
 
-[The head and neck tumor segmentation using nnU-Net with spatial and channel squeeze & excitation blocks]()
+[The head and neck tumor segmentation using nnU-Net with spatial and channel squeeze & excitation blocks]
 
-[Tumor segmentation in patients with head and neck cancers using deep learning based-on multi-modality PET/CT images]()
+[Tumor segmentation in patients with head and neck cancers using deep learning based-on multi-modality PET/CT images]
 
-[Oropharyngeal Tumour Segmentation using Ensemble 3D PET-CT Fusion Networks for the HECKTOR Challenge]()
+[Oropharyngeal Tumour Segmentation using Ensemble 3D PET-CT Fusion Networks for the HECKTOR Challenge]
 
 ---
 
