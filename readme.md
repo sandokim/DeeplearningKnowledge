@@ -1,4 +1,4 @@
-# Metric Dice Simliarity Coefficient & Haus Dorff Distance
+# Metrics : Dice Simliarity Coefficient & Haus Dorff Distance
 
 For evaluating the segmentation of complex shaped lesions, boundary-based measures
 
