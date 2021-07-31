@@ -1,5 +1,7 @@
 ## Segmantation 관련 논문 입니다
 
+[Transparent reporting of biomedical image analysis challenges](https://arxiv.org/ftp/arxiv/papers/1910/1910.04071.pdf)
+
 [Why rankings of
 biomedical image analysis competitions should be interpreted with care](https://arxiv.org/ftp/arxiv/papers/1806/1806.02051.pdf)
 
