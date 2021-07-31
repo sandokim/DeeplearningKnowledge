@@ -1,5 +1,9 @@
 ## Segmantation 관련 논문 입니다
 
+[Introduction to 3D medical imaging for machine learning: preprocessing and augmentations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
+
+[Multimodal Spatial Attention Module for Targeting Multimodal PET-CT Lung Tumor Segmentation](https://ieeexplore.ieee.org/document/9354983)
+
 [A review on segmentation of positron emission tomography images](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
 
 [Transparent reporting of biomedical image analysis challenges](https://arxiv.org/ftp/arxiv/papers/1910/1910.04071.pdf)
