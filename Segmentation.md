@@ -28,6 +28,18 @@
 
 [Oropharyngeal Tumour Segmentation using Ensemble 3D PET-CT Fusion Networks for the HECKTOR Challenge]
 
+논문에서 시사하는 바
+
+According to these criteria, the task is partially solved. The first criterion, evaluating the segmentation at the pixel level, is fulfilled. At the occurrence level
+(criteria 2 and 3), however, even the algorithms with the highest DSC output FP and FN regions. These errors are generally made in very difficult cases and
+we should further evaluate their source, e.g. Figure 2c and 2d. Besides, there is still a lot of work to do on highly related tasks, including the segmentation of
+lymph nodes, the development of super-annotator ground truth as well as the agreement of multiple annotators, and, finally, the prediction of patient outcome
+following the tumor segmentation.
+
+Following the analysis of poorly segmented cases, we identified several key elements that cause the algorithms to fail. ***These elements are as follows; low
+FDG uptake on PET, primary tumor that looks like a lymph node, abnormal uptake in the tongue and tumor present at the border of the oropharynx region.***
+Some examples are illustrated in Figure 1. ***Understanding these errors will lead to better methods and to a more targeted task for the next iteration of this challenge.***
+
 ---
 
 # U-Net
