@@ -3,6 +3,25 @@
 For evaluating the segmentation of complex shaped lesions, boundary-based measures should be used in addition to region based metrics to quantify the shape dissimilarity
 between the delineated lesion and the ground truth [45, 57]. Geometric metrics such as the Hausdorff distance (HD) measure how far two boundaries are from each other [58]. Thus, an accuracte segmentation result would achieve a high DSC value (high regional overlap) and a low HD value (high shape similarity). The DSC and HD are commonly reported together in the literature for a more thorough evaluation.
 
+Regression based statistical methods (i.e., Spearman and/or Pearson correlation coefficients)
+and the simple mean volume difference or relative volume ratio for the evaluation of
+segmentation methods are much more common than DSC based evaluations in clinical
+literature. However, readers should be aware that without having the TPVF (Sensitivity) and
+100-FPVF (Specificity) pair or the DSC value, comparing statistics on the absolute volume
+difference does not provide complete information on segmentation accuracy. In addition to
+sensitivity and specificity, receiver operating characteristic (ROC) curves may be used to
+evaluate the performance of a delineation method by combining sensitivity and specificity of
+the PET segmentation algorithms for a given uncertainty level [59, 60].
+In summary, a precise evaluation for a segmentation algorithm should be based on
+sensitivity and specificity measures (or DSC) and not solely on the absolute volume based
+statistical evaluations. Unless otherwise specified, we assume that all research papers listed
+in this review completed sensitivity and specificity comparisons for the proposed
+segmentation methods, even though some of those studies reported only volume based
+evaluations. It is also worth noting that DSC or sensitivity/specificity measures are region-based evaluation criteria. For a brief review on segmentation evaluation metrics, readers are
+encouraged to refer to [47, 55].
+
+[A review on segmentation of positron emission tomography images](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
+
 ---
 
 # Trainig & Testing & Result(Data Augmentation & Hyperparameters setting) & Conclusion
