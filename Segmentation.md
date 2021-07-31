@@ -16,6 +16,37 @@
 
 [Automatic Head and Neck Tumor Segmentation in PET/CT with Scale Attention Network](https://www.medrxiv.org/content/10.1101/2020.11.11.20230185v1.full.pdf)
 
+### Encoding Path Way
+
+The encoding pathway is built upon ResNet [16] blocks, where each block consists of two Convolution-Normalization-ReLU layers followed by additive identity
+skip connection.
+
+***We keep the batch size to 1 in our study to allocate more GPU
+memory resource to the depth and width of the model, therefore, we use instance normalization, i.e., group normalization [21] with one feature channel in
+each group, which has been demonstrated with better performance than batch
+normalization when batch size is small.***
+
+In order to further improve the representative capability of the model, we add a squeeze-and-excitation module [14] into
+each residual block with reduction ratio r = 4 to form a ResSE block. The initial
+scale includes one ResSE block with the initial number of features (width) of 24.
+We then progressively halve the feature map dimension while doubling the feature width using a strided (stride=2) convolution at the first convolution layer of
+the first ResSE block in the adjacent scale level. All the remaining scales include two ResSE blocks and the endpoint of the encoding pathway has a dimension of 384 × 8 × 8 × 8.
+
+### Decoding Path Way
+
+The decoding pathway follows the reverse pattern of the encoding one, but with
+a single ResSE block in each spatial scale. At the beginning of each scale, we use
+a transpose convolution with stride of 2 to double the feature map dimension
+and reduce the feature width by 2. ***The upsampled feature maps are then added
+to the output of SA-block. Here we use summation instead of concatenation for
+information fusion between the encoding and decoding pathways to reduce GPU
+memory consumption and facilitate the information flowing.*** 
+
+The endpoint of the decoding pathway has the same spatial dimension as the original input tensor and its feature width is reduced to 1 after a 1 × 1 × 1 convolution and a sigmoid function. In order to regularize the model training and enforce the low- and middle level blocks to learn discriminative features, we introduce deep supervision at
+each intermediate scale level of the decoding pathway. Each deep supervision subnet employs a 1 × 1 × 1 convolution for feature width reduction, followed by
+a trilinear upsampling layer such that they have the same spatial dimension as the output, then applies a sigmoid function to obtain extra dense predictions.
+These deep supervision subnets are directly connected to the loss function in order to further improve gradient flow propagation
+
 [Iteratively refine the segmentation of head andneck tumor in FDG-PET and CT images]
 
 [Patch-based 3D UNet for head and neck tumor segmentation with an ensemble of conventional and dilated convolutions]
