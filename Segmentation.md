@@ -1,5 +1,7 @@
 ## Segmantation 관련 논문 입니다
 
+[Squeeze-and-excitation normalization for automated delineation of head and neck primary tumors in combined PET and CT images](https://arxiv.org/pdf/2102.10446.pdf)
+
 [Introduction to 3D medical imaging for machine learning: preprocessing and augmentations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
 
 [Multimodal Spatial Attention Module for Targeting Multimodal PET-CT Lung Tumor Segmentation](https://ieeexplore.ieee.org/document/9354983)
