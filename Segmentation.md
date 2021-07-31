@@ -1,5 +1,7 @@
 ## Segmantation 관련 논문 입니다
 
+[A review on segmentation of positron emission tomography images](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
+
 [Transparent reporting of biomedical image analysis challenges](https://arxiv.org/ftp/arxiv/papers/1910/1910.04071.pdf)
 
 [Why rankings of
