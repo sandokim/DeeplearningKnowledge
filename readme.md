@@ -1,3 +1,21 @@
+# Metric Dice Simliarity Coefficient & Haus Dorff Distance
+
+For evaluating the segmentation of complex shaped lesions, boundary-based measures
+
+should be used in addition to region based metrics to quantify the shape dissimilarity
+
+between the delineated lesion and the ground truth [45, 57]. Geometric metrics such as the
+
+Hausdorff distance (HD) measure how far two boundaries are from each other [58]. Thus, an
+
+accuracte segmentation result would achieve a high DSC value (high regional overlap) and a
+
+low HD value (high shape similarity). The DSC and HD are commonly reported together in
+
+the literature for a more thorough evaluation.
+
+---
+
 # Trainig & Testing & Result(Data Augmentation & Hyperparameters setting) & Conclusion
 
 [Segmentation 논문 쓸 때 작성방법 참고](https://arxiv.org/pdf/1606.04797.pdf)
