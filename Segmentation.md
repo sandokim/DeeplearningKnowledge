@@ -6,6 +6,8 @@
 
 [Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
 
+[Automatic segmentation of head and neck tumors and nodal metastases in PET-CT scans](https://openreview.net/pdf?id=1Ql71nEERx)
+
 [Squeeze-and-excitation normalization for automated delineation of head and neck primary tumors in combined PET and CT images](https://arxiv.org/pdf/2102.10446.pdf)
 
 [Combining CNN and hybrid active contours for head and neck tumor segmentation](https://arxiv.org/pdf/2012.14207.pdf)
