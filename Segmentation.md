@@ -1,5 +1,8 @@
 ## Segmantation 관련 논문 입니다
 
+[Why rankings of
+biomedical image analysis competitions should be interpreted with care](https://arxiv.org/ftp/arxiv/papers/1806/1806.02051.pdf)
+
 [Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
 
 [3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes](https://arxiv.org/pdf/1607.00582.pdf)
