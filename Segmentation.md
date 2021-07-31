@@ -1,6 +1,39 @@
 ## Segmantation 관련 논문 입니다
 
+---
+
+# Head and Neck Tumor Segmentation Challenge 2020
+
+[Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
+
 [Squeeze-and-excitation normalization for automated delineation of head and neck primary tumors in combined PET and CT images](https://arxiv.org/pdf/2102.10446.pdf)
+
+[Combining CNN and hybrid active contours for head and neck tumor segmentation](https://arxiv.org/pdf/2012.14207.pdf)
+
+[Two-stage approach for segmenting gross tumor volume in head and neck cancer with CT and PET imaging](https://www.programmersought.com/article/36287421048/)
+
+[Automatic Head and Neck Tumor Segmentation in PET/CT with Scale Attention Network](https://www.medrxiv.org/content/10.1101/2020.11.11.20230185v1.full.pdf)
+
+[Iteratively refine the segmentation of head andneck tumor in FDG-PET and CT images]()
+
+[Patch-based 3D UNet for head and neck tumor segmentation with an ensemble of conventional and dilated convolutions]()
+
+[GAN-based bi-modal segmentation using mumfordshah loss: Application to head and neck tumors in PET-CT images]()
+
+[The head and neck tumor segmentation using nnU-Net with spatial and channel squeeze & excitation blocks]()
+
+[Tumor segmentation in patients with head and neck cancers using deep learning based-on multi-modality PET/CT images]()
+
+[Oropharyngeal Tumour Segmentation using Ensemble 3D PET-CT Fusion Networks for the HECKTOR Challenge]()
+
+---
+
+# U-Net
+
+[Modality specific U-Net variants for biomedical image segmentation: A survey](https://arxiv.org/pdf/2107.04537.pdf)
+
+
+---
 
 [Introduction to 3D medical imaging for machine learning: preprocessing and augmentations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4060809/pdf/nihms-590656.pdf)
 
@@ -12,8 +45,6 @@
 
 [Why rankings of
 biomedical image analysis competitions should be interpreted with care](https://arxiv.org/ftp/arxiv/papers/1806/1806.02051.pdf)
-
-[Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
 
 [3D Deeply Supervised Network for Automatic Liver Segmentation from CT Volumes](https://arxiv.org/pdf/1607.00582.pdf)
 
