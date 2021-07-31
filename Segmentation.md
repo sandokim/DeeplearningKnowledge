@@ -14,6 +14,8 @@
 
 [Two-stage approach for segmenting gross tumor volume in head and neck cancer with CT and PET imaging](https://www.programmersought.com/article/36287421048/)
 
+---
+
 [Automatic Head and Neck Tumor Segmentation in PET/CT with Scale Attention Network](https://www.medrxiv.org/content/10.1101/2020.11.11.20230185v1.full.pdf)
 
 ### Encoding Path Way
@@ -47,6 +49,8 @@ each intermediate scale level of the decoding pathway. Each deep supervision sub
 a trilinear upsampling layer such that they have the same spatial dimension as the output, then applies a sigmoid function to obtain extra dense predictions.
 These deep supervision subnets are directly connected to the loss function in order to further improve gradient flow propagation
 
+---
+
 [Iteratively refine the segmentation of head andneck tumor in FDG-PET and CT images]
 
 [Patch-based 3D UNet for head and neck tumor segmentation with an ensemble of conventional and dilated convolutions]
@@ -59,7 +63,7 @@ These deep supervision subnets are directly connected to the loss function in or
 
 [Oropharyngeal Tumour Segmentation using Ensemble 3D PET-CT Fusion Networks for the HECKTOR Challenge]
 
-### 논문에서 시사하는 바
+### Hecktor Challenge 2020 review 논문에서 시사하는 바
 
 According to these criteria, the task is partially solved. The first criterion, evaluating the segmentation at the pixel level, is fulfilled. At the occurrence level
 (criteria 2 and 3), however, even the algorithms with the highest DSC output FP and FN regions. These errors are generally made in very difficult cases and
