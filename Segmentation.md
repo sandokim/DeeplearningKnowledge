@@ -220,7 +220,7 @@ biomedical image analysis competitions should be interpreted with care](https://
 
 ---
 
-# Backbone Network Deep Leaning
+# Backbone Network Deep Learning
 
 In my understanding, the "backbone" refers to the feature extracting network which is used within the DeepLab architecture. This feature extractor is used to encode the network's input into a certain feature representation. The DeepLab framework "wraps" functionalities around this feature extractor. By doing so, the feature extractor can be exchanged and a model can be chosen to fit the task at hand in terms of accuracy, efficiency, etc.
 
