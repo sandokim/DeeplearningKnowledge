@@ -217,3 +217,11 @@ biomedical image analysis competitions should be interpreted with care](https://
 [Discriminative unsupervised feature learning with convolutional neural networks](https://arxiv.org/pdf/1406.6909.pdf)
 
 [Three-Dimensional Visualization of Medical Image using Image Segmentation Algorithm based on Deep Learning](http://koreascience.or.kr/article/JAKO202010163509916.page)
+
+---
+
+# Backbone Network Deep Leaning
+
+In my understanding, the "backbone" refers to the feature extracting network which is used within the DeepLab architecture. This feature extractor is used to encode the network's input into a certain feature representation. The DeepLab framework "wraps" functionalities around this feature extractor. By doing so, the feature extractor can be exchanged and a model can be chosen to fit the task at hand in terms of accuracy, efficiency, etc.
+
+In case of DeepLab, the term backbone might refer to models like the ResNet, Xception, MobileNet, etc.
