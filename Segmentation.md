@@ -83,7 +83,7 @@ Some examples are illustrated in Figure 1. ***Understanding these errors will le
 
 ---
 
-U-Net의 한계점
+U-Net의 한계점 & Efficient Net 등장 (compound coefficients for uniform scaling in all dimensions)
 
 [Integrating global spatial features in CNN based Hyperspectral/SAR imagery classification](https://arxiv.org/pdf/2107.04537.pdf)
 
