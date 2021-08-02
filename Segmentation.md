@@ -20,6 +20,10 @@ The semantic segmentation [9] segregates the objects belonging to different clas
 
 [Squeeze-and-excitation normalization for automated delineation of head and neck primary tumors in combined PET and CT images](https://arxiv.org/pdf/2102.10446.pdf)
 
+#### SENet의 영감을 받아 만들어진 AGCNN
+
+[Attention-guided convolutional neural network for detecting pneumonia on chest x-rays](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8857277&tag=1)
+
 [Combining CNN and hybrid active contours for head and neck tumor segmentation](https://arxiv.org/pdf/2012.14207.pdf)
 
 [Two-stage approach for segmenting gross tumor volume in head and neck cancer with CT and PET imaging](https://www.programmersought.com/article/36287421048/)
