@@ -216,6 +216,9 @@ biomedical image analysis competitions should be interpreted with care](https://
 
 ***When the target is the segmentation of the internalorgans, then models adopting the attention mechanism help to focus the network on regions of interest.***
 
+***The attention approach tends to suppress irrelevant features and highlight the prominent features corresponding to the target regions.*** The authors utilized the FCN with U-Net connectivity, where the skip connections are loaded with these attention filters. Inspired from the work of Shen et al. [124], each pixel is associated with a gating vector to determine the regions to focus.
+
+
 [VoxResNet: Deep Voxelwise Residual Networks for Volumetric Brain Segmentation](https://arxiv.org/pdf/1608.05895.pdf)
 
 [Discriminative unsupervised feature learning with convolutional neural networks](https://arxiv.org/pdf/1406.6909.pdf)
