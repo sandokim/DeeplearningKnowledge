@@ -112,6 +112,8 @@ Despite U-Net being superefficient for biomedical image segmentation, it certain
 
 ***The transfer learning approachtypically produces better results than the random initialization of the training parameters.***
 
+[A survey on deep learning techniques for image and video semantic segmentation](https://reader.elsevier.com/reader/sd/pii/S1568494618302813?token=9AC0EB4023E03BB67F076FC17124B7200D90ADCE6184EC69F13409E1B7463ADA8BC571FA4C80632BC63704BB0F937F0B&originRegion=us-east-1&originCreation=20210802062602)
+
 ### Segmentation에서는 Noise를 추가할 시 모델의 성능을 저하시키는 문제가 발생할 수 있다. 
 
 #### Data Augmentation시 Noise는 추가하지 말자.
