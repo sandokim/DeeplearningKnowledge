@@ -2,7 +2,7 @@
 
 ### Segmentation Scheme
 
-![Data_loader](./image/Deep_Learning_based_segmentation_architectures.PNG)
+![Data_loader](./image/Deep_Learning_based_segmentation_architectures.JPG)
 
 ---
 
