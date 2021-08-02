@@ -212,6 +212,10 @@ biomedical image analysis competitions should be interpreted with care](https://
 
 [SDU-Net: U-Net Using Stacked Dilated Convolutions for Medical Image Segmentation](https://arxiv.org/ftp/arxiv/papers/2004/2004.03466.pdf)
 
+[Attention u-net: Learning where to look for the pancreas](https://arxiv.org/pdf/1804.03999.pdf)
+
+***When the target is the segmentation of the internalorgans, then models adopting the attention mechanism help to focus the network on regions of interest.***
+
 [VoxResNet: Deep Voxelwise Residual Networks for Volumetric Brain Segmentation](https://arxiv.org/pdf/1608.05895.pdf)
 
 [Discriminative unsupervised feature learning with convolutional neural networks](https://arxiv.org/pdf/1406.6909.pdf)
