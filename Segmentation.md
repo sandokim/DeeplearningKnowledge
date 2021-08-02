@@ -108,6 +108,14 @@ structures involving lungs nodule, brain tumor, skin lesions, retina blood vesse
 
 Despite U-Net being superefficient for biomedical image segmentation, it certainly has its limits and challenges. One such major challenge is concerned with the computational power requirement which tends to limit the feasibility of the approach. Following this many cloud based high performance computing environments are developed for mobile, efficient and faster computations. Although progress is also made towards the model compression and acceleration techniques [174] with great achievements, however, it is still required to establish the concrete benchmark results for real-time applications. Recently, Tan et al. [175] proposed an ***EfficientNet framework that uses compound coefficients for uniform scaling in all dimensions. This could make U-Net design streamline for complex segmentation tasks with minimal change in the parameters.***
 
+### U-Net model의 deeper layers에서 abstract features of the target structure를 무시해버릴 수도 있다. 
+
+#### Gradient가 diulted 되는 문제가 발생하기 때문이다.
+
+Despite vanilla U-Net being super-efficient in the ISBI cell tracking challenge, there is still a void to fill with improvements in certain aspects. ***The most apparent problem
+in the vanilla U-Net is that the learning may slow down in deeper layers of the U-Net model which increases the possibility of the network ignoring the layers representing abstract features of the target structure. This slack in the learning process is due to the generation of diluted gradients in the deeper layers***. Following this context, various U-Net variants are proposed to improve the segmentation performance. These improvements are observed in the form of integration of certain mechanism with U-Net model such as
+**1) Network design (ND) - pre-trained, fusion, dense, multitask, residual, cascaded, parallel, nested, deep supervision and attention, 2) Operation design (OD) - Convolution (dilated or atrous and depthwise separable), pooling (spectral and spatial), activation and training loss, and 3) Ensemble design (ED) - combines the multiple design aspects into one model. Most of the U-Net variants falls in the category of ensemble design.*** Hence, for faster and efficient computer-aided diagnosis practices, the following sections present wide varieties of UNet based approaches for biomedical image segmentation using various modalities. Table 5 summarizes the various U-Net variants reviewed in the following sections.
+
 ### Transfer Learning은 보편적으로 random하게 initialization을 하는 것보다 좋은 결과를 낸다.
 
 ***The transfer learning approachtypically produces better results than the random initialization of the training parameters.***
