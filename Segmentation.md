@@ -81,6 +81,15 @@ Some examples are illustrated in Figure 1. ***Understanding these errors will le
 
 [Modality specific U-Net variants for biomedical image segmentation: A survey](https://arxiv.org/pdf/2107.04537.pdf)
 
+---
+
+U-Net의 한계점
+
+[Integrating global spatial features in CNN based Hyperspectral/SAR imagery classification](https://arxiv.org/pdf/2107.04537.pdf)
+
+Considering the present survey it is also observed that each modality requires a different approach to address the
+corresponding challenges. Though there are segmentation approaches that are validated on multiple modalities to form generic architectures like nn-UNet, U-Net++, MRUnet, etc. but it is difficult to achieve optimal performance in all segmentation tasks. The main reason is due to the diverse variation in the features corresponding to the target
+structures involving lungs nodule, brain tumor, skin lesions, retina blood vessels, nuclei cells, etc. and hence require different mechanism (dense, residual, inception, attention, fusion, etc.) to integrate with U-Net model to effectively learn the complex target patterns. Moreover, the presence of noise or artefacts in different modalities adds another factor to propose different segmentation methods.
 
 ---
 
