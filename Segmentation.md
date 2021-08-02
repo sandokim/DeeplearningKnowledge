@@ -93,7 +93,9 @@ structures involving lungs nodule, brain tumor, skin lesions, retina blood vesse
 
 Despite U-Net being superefficient for biomedical image segmentation, it certainly has its limits and challenges. One such major challenge is concerned with the computational power requirement which tends to limit the feasibility of the approach. Following this many cloud based high performance computing environments are developed for mobile, efficient and faster computations. Although progress is also made towards the model compression and acceleration techniques [174] with great achievements, however, it is still required to establish the concrete benchmark results for real-time applications. Recently, Tan et al. [175] proposed an ***EfficientNet framework that uses compound coefficients for uniform scaling in all dimensions. This could make U-Net design streamline for complex segmentation tasks with minimal change in the parameters.***
 
-### Segmentation에서는 Noise를 추가할 시 모델의 성능을 저하시키는 문제가 발생할 수 있다. Data Augmentation시 Noise는 추가하지 말자.
+### Segmentation에서는 Noise를 추가할 시 모델의 성능을 저하시키는 문제가 발생할 수 있다. 
+
+#### Data Augmentation시 Noise는 추가하지 말자.
 
 The main reason is due to the diverse variation in the features corresponding to the target structures involving lungs nodule, brain tumor, skin lesions,
 retina blood vessels, nuclei cells, etc. and hence require different mechanism (dense, residual, inception, attention,
