@@ -93,6 +93,12 @@ structures involving lungs nodule, brain tumor, skin lesions, retina blood vesse
 
 Despite U-Net being superefficient for biomedical image segmentation, it certainly has its limits and challenges. One such major challenge is concerned with the computational power requirement which tends to limit the feasibility of the approach. Following this many cloud based high performance computing environments are developed for mobile, efficient and faster computations. Although progress is also made towards the model compression and acceleration techniques [174] with great achievements, however, it is still required to establish the concrete benchmark results for real-time applications. Recently, Tan et al. [175] proposed an ***EfficientNet framework that uses compound coefficients for uniform scaling in all dimensions. This could make U-Net design streamline for complex segmentation tasks with minimal change in the parameters.***
 
+### 부족한 데이터셋을 Data Augmenatation을 함으로써 발생하게 되는 Overfitting
+
+Generally, the image augmentation strategies involve geometric transformations, color space augmentations, kernel filters, mixing images, random erasing, feature
+space augmentation, adversarial training, generative adversarial networks, neural style transfer, and meta-learning. However, the diversity of augmented data is limited by
+the available data which could result in overfitting.
+
 ---
 
 # Biomedical Segmentation
