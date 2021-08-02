@@ -107,6 +107,14 @@ Generally, the image augmentation strategies involve geometric transformations, 
 space augmentation, adversarial training, generative adversarial networks, neural style transfer, and meta-learning. However, the diversity of augmented data is limited by
 the available data which could result in overfitting.
 
+### Deep Transfer Learning을 적용함으로써 데이터 부족 문제를 해결할 수도 있다.
+
+#### Instances based, Mapping based, Network based, Adversarial based
+
+In another approach, U-Net models utilize transfer learning approaches [177] to optimize the pre-trained model to adapt the targeted task while having insufficient training data.
+These deep transfer learning techniques are categories under four broad areas: instances based, mapping based, network based and adversarial based [178]. These approaches
+are generally adopted in combinations for practical situations. The potential of this approach attracts many researchers to advance the U-Net based BIS approaches
+
 ---
 
 # Biomedical Segmentation
