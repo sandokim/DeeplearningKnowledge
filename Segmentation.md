@@ -240,4 +240,5 @@ The DCRC aids in extracting high level features, whereas the inception block fac
 
 [Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
 
+[Bidirectional convlstm u-net with densely connected convolutions](https://arxiv.org/pdf/1909.00166.pdf)
 
