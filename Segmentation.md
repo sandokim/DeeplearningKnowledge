@@ -225,3 +225,11 @@ biomedical image analysis competitions should be interpreted with care](https://
 In my understanding, the "backbone" refers to the feature extracting network which is used within the DeepLab architecture. This feature extractor is used to encode the network's input into a certain feature representation. The DeepLab framework "wraps" functionalities around this feature extractor. By doing so, the feature extractor can be exchanged and a model can be chosen to fit the task at hand in terms of accuracy, efficiency, etc.
 
 In case of DeepLab, the term backbone might refer to models like the ResNet, Xception, MobileNet, etc.
+
+# CNN 역사
+
+[Densely connected convolutional networks](https://arxiv.org/pdf/1608.06993.pdf)
+
+[Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
+
+[Recurrent residual convolutional neural network based on unet (r2u-net) for medical image segmentation](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)
