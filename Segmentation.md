@@ -2,6 +2,12 @@
 
 ---
 
+### Semantic segmentation VS Instance segmentation
+
+The semantic segmentation [9] segregates the objects belonging to different classes, whereas instance segmentation [10] goes deeper to also segregate the objects within the common class
+
+---
+
 # Head and Neck Tumor Segmentation Challenge 2020
 
 [Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
