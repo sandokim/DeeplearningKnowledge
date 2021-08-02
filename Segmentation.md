@@ -150,6 +150,8 @@ In BIS (Biomedical Image Segmentation), mostly the datasets are imbalanced i.e. 
 recommended for BIS evaluation of the models. Among the discussed metrics intersection-over-union (IoU or Jaccard index) and dice similarity coefficient are the most widely
 used evaluation metrics in BIS for various modalities. More details can be found in the recent review articles [8], [11].
 
+The first U-Net model is utilized for CVC segmentation ***by using the exponential logarithmic loss to address the class imbalance problem,*** whereas the other U-Net model tends to extract the anatomical structures to distinguish the ambiguous classes such as PICC and subclavian lines.
+
 ---
 
 [Deep learning approaches to
