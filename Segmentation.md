@@ -136,6 +136,12 @@ In another approach, U-Net models utilize transfer learning approaches [177] to 
 These deep transfer learning techniques are categories under four broad areas: instances based, mapping based, network based and adversarial based [178]. These approaches
 are generally adopted in combinations for practical situations. The potential of this approach attracts many researchers to advance the U-Net based BIS approaches
 
+### Data imbalance problem
+
+In BIS (Biomedical Image Segmentation), mostly the datasets are imbalanced i.e. the number of pixels/voxels concerning the target region (region of interest) are relatively less than the dark pixels/voxels (background region), due to which the metrics such as accuracy, which are best suited for a balanced distribution of data samples, are not
+recommended for BIS evaluation of the models. Among the discussed metrics intersection-over-union (IoU or Jaccard index) and dice similarity coefficient are the most widely
+used evaluation metrics in BIS for various modalities. More details can be found in the recent review articles [8], [11].
+
 ---
 
 [Deep learning approaches to
