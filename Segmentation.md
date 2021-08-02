@@ -156,7 +156,7 @@ used evaluation metrics in BIS for various modalities. More details can be found
 
 The first U-Net model is utilized for CVC segmentation ***by using the exponential logarithmic loss to address the class imbalance problem,*** whereas the other U-Net model tends to extract the anatomical structures to distinguish the ambiguous classes such as PICC and subclavian lines.
 
-### Data Abiguities -> Solved with probabilisitc U-Net
+### Data Ambiguities -> Solved with probabilisitc U-Net
 
 In the real world scenario, modalities may suffer from inherent ambiguities that coagulate the actual nature of the disease. Following this, Kohl et al. [39] introduced
 a probabilistic U-Net framework that combines the standard U-Net model with conditional variational autoencoder (CVAE). For a sample image, CVAE generates diverse plausible hypotheses from a low-dimensional latent space which are fed to U-Net to generate the corresponding segmentation mask.
