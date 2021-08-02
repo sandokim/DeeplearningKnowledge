@@ -91,6 +91,10 @@ Some examples are illustrated in Figure 1. ***Understanding these errors will le
 
 [Modality specific U-Net variants for biomedical image segmentation: A survey](https://arxiv.org/pdf/2107.04537.pdf)
 
+U-Net model proposed by Ronnerberger et al. [12], consists of FCN along with the contraction-expansion paths. ***The contraction phase tends
+to extract high and low level features, whereas expansion phase follows from the features learned in corresponding
+contraction phase (skip connections) to reconstruct the image into the desired dimensions with the help of transposed convolutions or upsampling operations.***
+
 #### U-Net의 한계점 & Efficient Net 등장 (compound coefficients for uniform scaling in all dimensions)
 
 Considering the present survey it is also observed that each modality requires a different approach to address the
