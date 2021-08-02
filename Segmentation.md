@@ -87,11 +87,7 @@ Some examples are illustrated in Figure 1. ***Understanding these errors will le
 
 [Modality specific U-Net variants for biomedical image segmentation: A survey](https://arxiv.org/pdf/2107.04537.pdf)
 
----
-
-U-Net의 한계점 & Efficient Net 등장 (compound coefficients for uniform scaling in all dimensions)
-
-[Integrating global spatial features in CNN based Hyperspectral/SAR imagery classification](https://arxiv.org/pdf/2107.04537.pdf)
+#### U-Net의 한계점 & Efficient Net 등장 (compound coefficients for uniform scaling in all dimensions)
 
 Considering the present survey it is also observed that each modality requires a different approach to address the
 corresponding challenges. Though there are segmentation approaches that are validated on multiple modalities to form generic architectures like nn-UNet, U-Net++, MRUnet, etc. but it is difficult to achieve optimal performance in all segmentation tasks. The main reason is due to the diverse variation in the features corresponding to the target
@@ -120,6 +116,15 @@ the available data which could result in overfitting.
 In another approach, U-Net models utilize transfer learning approaches [177] to optimize the pre-trained model to adapt the targeted task while having insufficient training data.
 These deep transfer learning techniques are categories under four broad areas: instances based, mapping based, network based and adversarial based [178]. These approaches
 are generally adopted in combinations for practical situations. The potential of this approach attracts many researchers to advance the U-Net based BIS approaches
+
+---
+
+[Deep learning approaches to
+biomedical image segmentation](https://reader.elsevier.com/reader/sd/pii/S235291481930214X?token=0F6C5BB27346A6A3C7BFDA2757F834A59C7F321225369BF5D8B29DB11768AB82ADA180A417FC212854C11680F763A789&originRegion=us-east-1&originCreation=20210802050928)
+
+[A review: Deep learning for medical image segmentation using multi-modality fusion](https://arxiv.org/pdf/2004.10664.pdf)
+
+[Integrating global spatial features in CNN based Hyperspectral/SAR imagery classification](https://arxiv.org/pdf/2107.04537.pdf)
 
 ---
 
