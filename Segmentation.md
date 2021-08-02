@@ -1,5 +1,9 @@
 ## Segmantation 관련 논문 입니다
 
+### Segmentation Scheme
+
+![Data_loader](./image/Deep_Learning_based_segmentation_architectures.PNG)
+
 ---
 
 ### Semantic segmentation VS Instance segmentation
