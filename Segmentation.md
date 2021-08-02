@@ -196,6 +196,8 @@ biomedical image analysis competitions should be interpreted with care](https://
 
 [V-Net: Fully Convolutional Neural Networks for Volumetric Medical Image Segmentation](https://arxiv.org/pdf/1606.04797.pdf)
 
+[SDU-Net: U-Net Using Stacked Dilated Convolutions for Medical Image Segmentation](https://arxiv.org/ftp/arxiv/papers/2004/2004.03466.pdf)
+
 [VoxResNet: Deep Voxelwise Residual Networks for Volumetric Brain Segmentation](https://arxiv.org/pdf/1608.05895.pdf)
 
 [Discriminative unsupervised feature learning with convolutional neural networks](https://arxiv.org/pdf/1406.6909.pdf)
