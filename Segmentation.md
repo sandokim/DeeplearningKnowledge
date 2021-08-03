@@ -240,20 +240,6 @@ In case of DeepLab, the term backbone might refer to models like the ResNet, Xce
 
 # CNN 역사
 
-[Densely connected convolutional networks](https://arxiv.org/pdf/1608.06993.pdf)
-
-[Going deeper with convolutions](https://arxiv.org/pdf/1409.4842.pdf)
-
-[Recurrent residual convolutional neural network based on unet (r2u-net) for medical image segmentation](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)
-
-[Dual encoder fusion unet (defu-net) for cross-manufacturer chest x-ray segmentation](https://arxiv.org/pdf/2009.10608.pdf)
-
-The DCRC aids in extracting high level features, whereas the inception block facilitates to increase the network width and improve the horizontal feature representation using various receptive fields with dilated convolutions. ***The advantage of using dilated convolutions is that it tends to increase the receptive field without changing the number of training parameters.***
-
-[Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
-
-[Bidirectional convlstm u-net with densely connected convolutions](https://arxiv.org/pdf/1909.00166.pdf)
-
 [AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
 [VGGNet](https://arxiv.org/pdf/1409.1556.pdf)
@@ -265,6 +251,16 @@ The DCRC aids in extracting high level features, whereas the inception block fac
 [MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
 
 [DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
+
+[Recurrent residual convolutional neural network based on unet (r2u-net) for medical image segmentation](https://arxiv.org/ftp/arxiv/papers/1802/1802.06955.pdf)
+
+[Dual encoder fusion unet (defu-net) for cross-manufacturer chest x-ray segmentation](https://arxiv.org/pdf/2009.10608.pdf)
+
+The DCRC aids in extracting high level features, whereas the inception block facilitates to increase the network width and improve the horizontal feature representation using various receptive fields with dilated convolutions. ***The advantage of using dilated convolutions is that it tends to increase the receptive field without changing the number of training parameters.***
+
+[Multi-scale context aggregation by dilated convolutions](https://arxiv.org/pdf/1511.07122.pdf)
+
+[Bidirectional convlstm u-net with densely connected convolutions](https://arxiv.org/pdf/1909.00166.pdf)
 
 ---
 
