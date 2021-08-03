@@ -254,6 +254,18 @@ The DCRC aids in extracting high level features, whereas the inception block fac
 
 [Bidirectional convlstm u-net with densely connected convolutions](https://arxiv.org/pdf/1909.00166.pdf)
 
+[AlexNet](https://papers.nips.cc/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+
+[VGGNet](https://arxiv.org/pdf/1409.1556.pdf)
+
+[ResNet](https://arxiv.org/pdf/1512.03385.pdf)
+
+[GoogLeNet](https://arxiv.org/pdf/1409.4842.pdf)
+
+[MobileNet](https://arxiv.org/pdf/1704.04861.pdf)
+
+[DenseNet](https://arxiv.org/pdf/1608.06993.pdf)
+
 ---
 
 # X-ray imaging VS CT scans
