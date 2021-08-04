@@ -14,6 +14,10 @@ The semantic segmentation [9] segregates the objects belonging to different clas
 
 # Head and Neck Tumor Segmentation Challenge 2020
 
+### Distinction between the primary tumor and tumor-associated lymph nodes is the key to improve DSC
+
+It is worth noting that because the SUV on the PET image indicates the amount of metabolic activity, the areas where the SUV is expected to increase include the primary tumor, tumor-associated lymph nodes, and other normal tissues/organs, which have normal high metabolic activity, but this One challenge is to segment the primary tumor (GTVt) separately while excluding tumor-associated lymph nodes (GTVn). The test data set consisted of 53 patients from a hospital. The input data provided for each patient is similar to the training data set, and no segmentation mask is provided.
+
 [Overview of the HECKTOR Chanllenge at MICCAI 2020: Automatic Head and Neck Tumor Segmentation in PET/CT](https://www.researchgate.net/publication/348453198_Overview_of_the_HECKTOR_Challenge_at_MICCAI_2020_Automatic_Head_and_Neck_Tumor_Segmentation_in_PETCT)
 
 [Automatic segmentation of head and neck tumors and nodal metastases in PET-CT scans](https://openreview.net/pdf?id=1Ql71nEERx)
