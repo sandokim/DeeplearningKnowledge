@@ -264,6 +264,11 @@ The DCRC aids in extracting high level features, whereas the inception block fac
 
 ---
 
+### Useful Blocks for Segmentation
+
+[Smoothed Dilated Convolutions for Improved Dense Prediction](https://arxiv.org/pdf/1808.08931.pdf)
+
+
 # X-ray imaging VS CT scans
 
 In contrast to plain X-ray imaging, CT scans provide rich information with high quality images. This is generally utilized to examine people with serious injuries or diseases like trauma, tumors, pneumonia, etc., and also to plan medical, surgical or radiation treatment. Hence, various deep learning based approaches are developed for faster diagnosis and treatment using CT imaging.
