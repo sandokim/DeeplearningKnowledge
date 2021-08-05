@@ -13,3 +13,8 @@ We show that the proposed attention mechanism can provide efficientobject locali
 ### Segmentation 관건 => False Positives ↓, True Negatives ↑
                          
     (FP : 병변이 아닌 부분을 병변이라 예측, TN : Background인 부분을 Background라고 예측)
+    
+
+### How Attention Mechansisms work
+
+The idea of attention mechanisms is to generate a context vector which assigns weights on the input sequence. Thus, the signal highlights the salient feature of the sequence conditioned on the current word while suppressing the irrelevant counter-parts, making the prediction more contextualised.
