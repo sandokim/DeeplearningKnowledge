@@ -1,3 +1,7 @@
+# Evaluation Metric in Biomedical Image Segmentation
+
+![image](https://user-images.githubusercontent.com/74639652/128277990-b0226deb-7188-41de-bb07-25cfaa948639.png)
+
 # Metrics : Dice Simliarity Coefficient & Hausdorff Distance
 
 For evaluating the segmentation of complex shaped lesions, boundary-based measures should be used in addition to region based metrics to quantify the shape dissimilarity
