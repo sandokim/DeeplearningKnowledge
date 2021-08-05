@@ -10,4 +10,6 @@ minimal computational overhead while increasing the model sensitivity and predic
 
 We show that the proposed attention mechanism can provide efficientobject localisation while ***improving the overall prediction performance by reducing false positives.***
 
-### Segmentation 관건 => False Positives ↓
+### Segmentation 관건 => False Positives ↓, True Negatives ↑
+                         
+    (FP : 병변이 아닌 부분을 병변이라 예측, TN : Background인 부분을 Background라고 예측)
