@@ -7,3 +7,7 @@ Models trained with AGs implicitly learn to suppress irrelevant regions in an in
 us to eliminate the necessity of using explicit external tissue/organ localisation modules when using convolutional neural networks (CNNs). AGs can be easily
 integrated into standard CNN models such as VGG or U-Net architectures with
 minimal computational overhead while increasing the model sensitivity and prediction accuracy.
+
+We show that the proposed attention mechanism can provide efficientobject localisation while ***improving the overall prediction performance by reducing false positives.***
+
+### Segmentation 관건 => False Positives ↓
