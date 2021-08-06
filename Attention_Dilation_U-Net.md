@@ -40,3 +40,5 @@ Information extracted from coarse scale is used in gating to disambiguate irrele
  
 For AGs, we chose sigmoid activation function for normalisation: σ2(x) = 1/(1+exp(−x)). While in image captioning (Anderson et al., 2017) and classification (Jetley et al., 2018) tasks, the softmax activation function is used to normalise the attention coefficients σ2, however, sequential use of softmax yields sparser activations at the output. For dense prediction task, ***we empirically observed that sigmoid resulted in better training convergence for the AG parameters.***
 
+We empirically found that attention gates were less effective if applied to the earliest layer. We speculate that this is because first few layers only represent low-level features, which is not discriminative yet to be attended. The proposed architecture is shown in Figure 4.
+
