@@ -37,3 +37,6 @@ Information extracted from coarse scale is used in gating to disambiguate irrele
 ![image](https://user-images.githubusercontent.com/74639652/128440312-318f07f3-f937-4b98-a086-dce697248af4.png)
 
  The proposed AGs ar incorporated into the standard U-Net architecture ***to highlight salient features that are passed through the skip connections.***
+ 
+ For AGs, we chose sigmoid activation function for normalisation: σ2(x) = 1/(1+exp(−x)). While in image captioning (Anderson et al., 2017) and classification (Jetley et al., 2018) tasks, the softmax activation function is used to normalise the attention coefficients σ2, however, sequential use of softmax yields sparser activations at the output. For dense prediction task, ***we empirically observed that sigmoid resulted in better training convergence for the AG parameters.***
+
