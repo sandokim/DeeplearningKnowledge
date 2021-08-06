@@ -42,3 +42,7 @@ For AGs, we chose sigmoid activation function for normalisation: σ2(x) = 1/(1+e
 
 We empirically found that attention gates were less effective if applied to the earliest layer. We speculate that this is because first few layers only represent low-level features, which is not discriminative yet to be attended. The proposed architecture is shown in Figure 4.
 
+### 3D-CT Model => Batch Size 2 or 4
+
+The batch size for the Sononet models was set to 64. However, for the 3D-CT segmentation models, gradient updates are computed using small batch sizes of 2 to 4 samples. For larger segmentation networks, gradient averaging is used over multiple forward and backward passes. This is mainly because we propose a 3D-model to capture sufficient semantic context in contrast to the state-of-the-art CNN segmentation frameworks (Cai et al., 2017; Roth et al., 2018).
+
