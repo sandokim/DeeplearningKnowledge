@@ -28,4 +28,4 @@ In the context of medical imaging, however, since most objects of interest are h
 ![image](https://user-images.githubusercontent.com/74639652/128439684-66e9775d-7dc3-436f-bb8a-5aadd52681c3.png)
 
 Information extracted from coarse scale is used in gating to disambiguate irrelevant and noisy responses in input feature-maps. For instance, ***in the U-Net architecture, gating is performed on skip connections right before the concatenation to merge only relevant activations.***
-
+***Additionally, AGs filter the neuron activations during the forward pass as well as during the backward pass. Gradients originating from background regions are down weighted during the backward pass. This allows model parameters in shallower layers to be updated mostly based on spatial regions that are relevant to a given task.***
