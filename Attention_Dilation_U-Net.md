@@ -50,5 +50,7 @@ The batch size for the Sononet models was set to 64. However, for the 3D-CT segm
 
 Similarly, ***residual and dense connections can be used as in (Gibson et al., 2017) in conjunction with AGs to improve the segmentation results.*** In that regard, our 3D Attention U-Net model performs similar to the state-of-the-art, despite the input images are downsampled to lower resolution. More importantly, our approach significantly improves the results compared to single-model based segmentation frameworks (see Table 4). We do not require multiple CNN models to localise and segment object boundaries. Lastly, we performed 5-fold cross-validation on the CT-82 dataset using the Attention U-Net for a better comparison, which achieved 81.48 ± 6.23 DSC for pancreas labels
 
-## Reduces false positive examples because the gating mechanism suppresses background noise and forces the network to make the prediction based on class-specific features.
+## AG-Sononet Reduces false positive examples because the gating mechanism suppresses background noise and forces the network to make the prediction based on class-specific features.
+
+In general, AG-Sononet improves the results over Sononet at all capacity levels. In particular, AG-Sononet achieves higher precision.
 
