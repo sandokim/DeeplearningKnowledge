@@ -24,3 +24,8 @@ Here, we demonstrate that the same objective can be achieved by integrating atte
 ### Attnetion in Medical Imaging (Pooling => Spatial Context Disadvantage => Let's Use Attention Mechanism) 
 
 In the context of medical imaging, however, since most objects of interest are highly localised, flattening may have the disadvantage of losing important spatial context. In fact, in many cases a few max-pooling operations are sufficient to infer the global context without explicitly using the global pooling. Therefore, we propose a grid attention mechanism. The idea is to use the coarse scale feature map before any flattening is done.
+
+![image](https://user-images.githubusercontent.com/74639652/128439684-66e9775d-7dc3-436f-bb8a-5aadd52681c3.png)
+
+Information extracted from coarse scale is used in gating to disambiguate irrelevant and noisy responses in input feature-maps. For instance, ***in the U-Net architecture, gating is performed on skip connections right before the concatenation to merge only relevant activations.***
+
