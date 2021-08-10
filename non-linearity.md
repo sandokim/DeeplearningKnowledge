@@ -1,6 +1,6 @@
 [Neural Network에서 Non-linearity가 필요한 이유](https://medium.com/ml-cheat-sheet/understanding-non-linear-activation-functions-in-neural-networks-152f5e101eeb)
 
-결론은 ReLU가 최고고 마지막에서 softmax로 classifiction하면 됩니다
+결론은 ReLU가 최고고 마지막에서 softmax로 classifiction하면 됩니다.
 
 ### Receptive field
 
