@@ -10,3 +10,4 @@
 
 한 픽셀을 얻어낼때 input의 3x3x3 conv 하면 3x3x3고 또하면 5x5x5 또하면 7x7x7이 됩니다. :)
 
+<img src="./image/SENetwork.jpg" width="40%"> <img src="./image/receptive_field.jpg" width="40%"> 
