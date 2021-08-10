@@ -2,6 +2,8 @@
 
 [Attention Gated Networks: Learning to Leverage Salient Regions in Medical Images](https://arxiv.org/pdf/1808.08114.pdf)
 
+[Attention-Gated-Networks](https://github.com/ozan-oktay/Attention-Gated-Networks)
+
 We propose a novel attention gate (AG) model for medical image analysis that automatically learns to focus on target structures of varying shapes and sizes.
 Models trained with AGs implicitly learn to suppress irrelevant regions in an input image while highlighting salient features useful for a specific task. This enables
 us to eliminate the necessity of using explicit external tissue/organ localisation modules when using convolutional neural networks (CNNs). AGs can be easily
