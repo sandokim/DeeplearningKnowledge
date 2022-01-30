@@ -20,8 +20,5 @@ quality, almost noiseless 2D images in daily environment
 tasks. Acquiring such high quality photographs is quite
 cheap with the use of smart phones and digital cameras.
 
-In deep learning based
-image processing such as image denoising or single image
-super resolution, it is often more efficient to use image
-patches instead of whole images for training. For example,
-x(j) and y(j) can be image patches from a ground truth image and a noisy image, respectively
+### In deep learning based image processing such as image denoising or single image super resolution, it is often more efficient to use image patches instead of whole images for training. 
+For example, x(j) and y(j) can be image patches from a ground truth image and a noisy image, respectively
