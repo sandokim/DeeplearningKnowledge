@@ -6,3 +6,8 @@ train DNN denoisers to yield performances close to those networks trained with g
 also propose a SURE-based refining method with a noisy test image for further performance improvement. Our quick refining method
 outperformed conventional BM3D, deep image prior, and often the networks trained with ground truth. Potential extension of our
 SURE-based methods to Poisson noise model was also investigated
+
+### K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-D transform-domain collaborative filtering,” 
+
+Deep learning based image denoisers have yielded performances that are equivalent to or better than those of
+conventional state-of-the-art denoising techniques such as BM3D
