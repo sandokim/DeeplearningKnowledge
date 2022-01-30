@@ -10,4 +10,12 @@ SURE-based methods to Poisson noise model was also investigated
 ### K. Dabov, A. Foi, V. Katkovnik, and K. Egiazarian, “Image denoising by sparse 3-D transform-domain collaborative filtering,” 
 
 Deep learning based image denoisers have yielded performances that are equivalent to or better than those of
-conventional state-of-the-art denoising techniques such as BM3D
+conventional state-of-the-art denoising techniques such as BM3D.
+
+These deep denoisers typically train their networks by minimizing the mean-squared error (MSE) between the output of a network and a ground truth (noiseless) image. Thus, it is crucial to have high quality noiseless
+images for high performance denoising. Thus far, DNN
+denoisers have been successful since high quality camera
+sensors and abundant light allow the acquisition of high
+quality, almost noiseless 2D images in daily environment
+tasks. Acquiring such high quality photographs is quite
+cheap with the use of smart phones and digital cameras
