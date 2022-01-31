@@ -22,3 +22,7 @@ cheap with the use of smart phones and digital cameras.
 
 ### In deep learning based image processing such as image denoising or single image super resolution, it is often more efficient to use image patches instead of whole images for training. 
 For example, x(j) and y(j) can be image patches from a ground truth image and a noisy image, respectively
+
+### Super resolution problem, CNNs, reconstruction
+
+For instance, in the SR task, it is common to train the CNNs to reconstruct x from y that is observed using a bicubic down-sampling kernel
