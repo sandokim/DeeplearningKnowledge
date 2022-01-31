@@ -26,3 +26,11 @@ For example, x(j) and y(j) can be image patches from a ground truth image and a 
 ### Super resolution problem, CNNs, reconstruction
 
 For instance, in the SR task, it is common to train the CNNs to reconstruct x from y that is observed using a bicubic down-sampling kernel
+
+
+![Data_loader](./image/reconstruction.JPG)
+
+In many image-restoration tasks the observed image y can be expressed by the following linear model, where H ∈ R m×n is a measurement operator with m ≤ n,
+and e ∼ N (0, σ2 Im) is an additive white Gaussian noise. For example, when H is a blur operator, it is a deblurring problem, and when H is an anti-aliasing filtering followed by sub-sampling it is a super-resolution (SR) problem.
+
+Image restoration problems represented by (1) are usually ill-posed, in the sense that fitting the measurements y alone is not enough for a successful reconstruction of x. Therefore, the use of some prior assumptions on x is inevitable.
