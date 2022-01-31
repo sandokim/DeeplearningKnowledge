@@ -35,6 +35,6 @@ and e ∼ N (0, σ2 Im) is an additive white Gaussian noise. For example, when H
 
 Image restoration problems represented by (1) are usually ill-posed, in the sense that fitting the measurements y alone is not enough for a successful reconstruction of x. Therefore, the use of some prior assumptions on x is inevitable.
 
-### Super reslution 문제
+### Super resolution 문제
 
 However, in order to perform well, the CNNs require that the observation model at test time is the exact model used in the training phase. For instance, in the SR task, it is common to train the CNNs to reconstruct x from y that is observed using a bicubic down-sampling kernel [9, 22]. But when examined on other down-sampling kernels these networks perform very poorly [1, 35, 44]
